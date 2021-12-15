@@ -1,4 +1,4 @@
-When the page require output bundles from more than one entry，only hmr of the entry which is latest be required work in webpack5.
+When the page require output bundles from multiple entries，only hmr of the entry which is latest be required work in webpack5.
 
 ## introduction
 
@@ -53,3 +53,7 @@ After files loaded，first.js and second.js are all declared waitingUpdateResolv
 
 When two files are from same complier, using `optimization.runtimeChunk` can resolve this bug. This make code using same context.
 But When two files from two compliers, can't use this solution.
+
+## relevant
+
+https://github.com/webpack/webpack/issues/423
