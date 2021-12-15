@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": "true",
   "scripts": {
-    "enties": "npx webpack serve --config webpack.entries.config.js",
+    "entries": "npx webpack serve --config webpack.entries.config.js",
     "compliers": "npx webpack serve --config webpack.compliers.config.js"
   },
   "keywords": [],
