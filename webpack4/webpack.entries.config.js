@@ -4,6 +4,7 @@ module.exports = [{
   mode: 'development',
   entry: {
     first: ['./src/first.js'],
+    second: ['./src/second.js'],
   },
   devtool: 'source-map',
   devServer: {
@@ -11,16 +12,6 @@ module.exports = [{
     static: 'dist',
     hot: true
   },
-  output: {
-    filename: '[name].js',
-    path: path.resolve(__dirname, 'dist')
-  }
-}, {
-  mode: 'development',
-  entry: {
-    second: ['./src/second.js'],
-  },
-  devtool: 'source-map',
   output: {
     filename: '[name].js',
     path: path.resolve(__dirname, 'dist')
