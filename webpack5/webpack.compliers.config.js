@@ -12,16 +12,19 @@ module.exports = [{
     hot: true
   },
   output: {
+    uniqueName: 'first',
     filename: '[name].js',
     path: path.resolve(__dirname, 'dist')
   }
 }, {
+  target: 'web',
   mode: 'development',
   entry: {
     second: ['./src/second.js'],
   },
   devtool: 'source-map',
   output: {
+    uniqueName: 'second',
     filename: '[name].js',
     path: path.resolve(__dirname, 'dist')
   }

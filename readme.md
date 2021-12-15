@@ -57,3 +57,7 @@ But When two files from two compliers, can't use this solution.
 ## relevant
 
 https://github.com/webpack/webpack/issues/423
+
+## result
+
+Setting output.uniqueName can generated different runtimes.
