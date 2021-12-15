@@ -1,0 +1,19 @@
+{
+  "name": "webpack5",
+  "version": "1.0.0",
+  "private": "true",
+  "scripts": {
+    "enties": "npx webpack serve --config webpack.entries.config.js",
+    "compliers": "npx webpack serve --config webpack.compliers.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
+  },
+  "main": "webpack.config.js",
+  "description": ""
+}
