@@ -5,9 +5,6 @@ module.exports = [{
   entry: {
     first: ['./src/first.js'],
   },
-  optimization: {
-    runtimeChunk: true
-  },
   devtool: 'source-map',
   devServer: {
     port: 9000,
@@ -22,9 +19,6 @@ module.exports = [{
   mode: 'development',
   entry: {
     second: ['./src/second.js'],
-  },
-  optimization: {
-    runtimeChunk: true
   },
   devtool: 'source-map',
   output: {
